@@ -21,7 +21,7 @@ use App\Http\Controllers\HotelController;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
-// below is test api working
+// below is test api working on git
 Route::prefix('user')->group(function () {
     Route::get('/all', [UserController::class, 'index']);
     Route::post('/add', [UserController::class, 'create']);
@@ -39,6 +39,7 @@ Route::get('/users/{id}/{name}', function (Request $request, string $id) {
     $array = array("size" => "XL", "color" => "gold");
     return $array['size'];
 });
+//commit
 Route::prefix('hotel')->group(function () {
     Route::post('/book-hotel', [HotelController::class, 'bookHotel']);
     Route::get('/get-posts', [HotelController::class, 'getPosts']);
