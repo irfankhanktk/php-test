@@ -18,7 +18,7 @@ kkdkjkf
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
+//how to create PR
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
