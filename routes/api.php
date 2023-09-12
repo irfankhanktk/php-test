@@ -8,6 +8,7 @@ use App\Http\Controllers\PostController;
 use App\Http\Controllers\HotelController;
 
 /*
+kkdkjkf
 |--------------------------------------------------------------------------
 | API Routes
 |--------------------------------------------------------------------------
